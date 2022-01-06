@@ -36,4 +36,62 @@ function akanNames(e) {
     const femaleName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     const maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 
+    if(d==0 && gender=='dot-1'){
+        alert("Hey, Your Akan name is : "=dot-1[0]+ "\n and you were born on: "+days[0])
+        return false;
+    }
+    if(d==1 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[1]+ "\n and you were born on: "+days[1])
+        return false;
+    }
+    if(d==2 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[2]+ "\n and you were born on: "+days[2])
+        return false;
+    }
+    if(d==3 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[3]+ "\n and you were born on: "+days[3])
+        return false;
+    }
+    if(d==4 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[4]+ "\n and you were born on: "+days[4])
+        return false;
+    }
+    if(d==5 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[5]+ "\n and you were born on: "+days[5])
+        return false;
+    }
+    if(d==6 && gender=='dot-1'){
+        window.alert("Hey, Your Akan name is : "=dot-1[6]+ "\n and you were born on: "+days[6])
+        return false;
+    }
+    if(d==0 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[0]+ "\n and you were born on: "+days[0])
+        return false;
+    }
+    if(d==1 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[1]+ "\n and you were born on: "+days[1])
+        return false;
+    }
+    if(d==2 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[2]+ "\n and you were born on: "+days[2])
+        return false;
+    }
+    if(d==3 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[3]+ "\n and you were born on: "+days[3])
+        return false;
+    }
+    if(d==4 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[4]+ "\n and you were born on: "+days[4])
+        return false;
+    }
+    if(d==5 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[5]+ "\n and you were born on: "+days[5])
+        return false;
+    }
+    if(d==6 && gender=='dot-2'){
+        window.alert("Hey, Your Akan name is : "=dot-2[6]+ "\n and you were born on: "+days[6])
+        return false;
+    }
+
+
 }
