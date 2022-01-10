@@ -3,26 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Celebrate Your Birthday!</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div class="container">
         <div class="title">Ghanian Names</div>
-        <form action="#">
+        <form name="myForm" class="form" onsubmit="validate();">
             <div class="user-details">
                 <div class="input-box">
-                    <span class="details">Day</span>
-                    <input type="text" placeholder="Day" id="date" required><br>
-                    <span class="details">Month</span>
-                    <input type="text" placeholder="Month" id="month"required><br>
-                    <span class="details">Year</span>
-                    <input type="text" placeholder="Year" id="year"required><br>
+                    <label for="number">Year of Birth</label>
+                    <input type="number" class="form-control" id="year" placeholder="Year of Birth. Example,2021"
+                        name="year"><br>
+
+                    <label for="number">Month of Birth</label>
+                    <input type="number" class="form-control" id="month" placeholder="Month of Birth. Example,08"
+                        name="month"><br>
+
+                    <label for="number">Date of Birth</label>
+                    <input type="number" class="form-control" id="date" placeholder="Date of Birth. Example,2021"
+                        name="date"><br>
                 </div>
             </div>
             <div class="gender-details">
-                <input type="radio" name="gender" id="dot-1">
+                <!--<input type="radio" name="gender" id="dot-1">
                 <input type="radio" name="gender" id="dot-2" value="checked">
                 <span class="gender-title">Gender</span>
                 <div class="category">
@@ -34,14 +42,15 @@
                         <span class="dot two"></span>
                         <span class="gender">Female</span>
                     </label>
-                </div>
-                <script src="js/scripts.js"></script>
+                </div> -->
+            </div>
+            <script src="js/scripts.js"></script>
 
-                <div class="button">
-                    <input type="submit" value="Register" onclick="validate()">
-                </div>
-            </form>
-        </div>
+            <div class="button">
+                <input type="submit" value="Register" onclick="validate()">
+            </div>
+        </form>
+    </div>
 
 </body>
 
